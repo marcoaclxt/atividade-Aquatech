@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+}
+
+a {
+    color: salmon;
+    text-decoration: none;
+}
+
+h4 {
+    margin: 0;
+}
+
+.header {
+    background-color: black;
+    border-bottom: 4px solid blue;
+}
+
+.headContainer {
+    padding: 0px 120px;
+    display: flex;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.headContainer .titulo {
+    color: rgb(17, 156, 255);
+}
+
+.navbar {
+    display: flex;
+    gap: 40px;
+
+    list-style: none;
+}
+
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 400px;
+
+    background-image: url("https://st3.depositphotos.com/2036275/33010/i/450/depositphotos_330100490-stock-photo-blank-front-real-black-chalkboard.jpg");
+}
+
+.containerTop p {
+    width: 160px;
+    font-size: 28px;
+    color: white;
+}
+
+.container span {
+    font-weight: bolder;
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+
+    background-color: rgb(224, 224, 224);
+}
+
+.box {
+    width: 200px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.box h4 {
+    color: deeppink;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 50px;
+
+    background-color: rgb(93, 187, 231);
+    color: white;
+}
